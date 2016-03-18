@@ -1,0 +1,224 @@
+<html>
+<head>
+    <title>task_1_2_1</title>
+    <style type="text/css">
+        body {margin: 0px; padding: 0px; background-color: #DEDEDE;font-family:'Microsoft YaHei UI';}
+        div.header {background-color : #333333;min-width:100%; width:100%; max-width:100%; height: 60px;min-height: 60px;  max-height: 60px;line-height:60px; vertical-align:central;text-align:right;white-space:nowrap;overflow:hidden;}
+        
+        #logo {float:left;text-align:center; line-height :60px; min-width:128px;min-height :60px;height:60px;max-height:60px; background-color : #CCCCCC;margin-left:30px;}
+        .shadow{padding :20px; background-color:#FFFFFF;border:1px solid #CDCDCD;box-shadow:3px 3px 3px #848484;-webkit-box-shadow:3px 3px 3px #848484;-moz-box-shadow: 3px 3px 3px #848484;}
+        .datagrid {border-spacing:0;width:100%;min-width:100%;max-width:100%;}
+        .head{text-align:left;background-color:#333333;color:#FFFFFF;}
+        .total{background-color:#CCCCCC;font-weight:bold;}
+        .button{background-color:#3355D0;border-radius: 5px; width:100%;line-height:38px;border:none;color:#FFFFFF;font-weight:bold;font-size:large;}
+        div.header ul { display: inline; margin-right:15px; }
+        div.header ul li { margin-left: 15px; display: inline;}
+        div.header ul li a { font-weight: bold; color: white;}
+        table.content { border-spacing:20px; padding: 20px;width:100%;min-width:100%;max-width:100%;}    
+        table.content tr td h1{ font-size:x-large;}
+        table.content tr td h2{font-size:medium;color:#676767;}
+        table.content tr td h3{font-size:small;color:#676767;}
+        table.content tr td p{font-size:medium;}
+        table.content tr td ul.list{font-size:medium;list-style:none;}
+        table.content tr td ul.album{ font-size:medium;list-style:none;float:left;}
+        table.content tr td ul.album li{margin-bottom:20px; border:1px solid #CECECE;text-align:center;padding-left:8px;padding-bottom:8px;padding-right:8px;}
+
+        div.footer {background-color: #000000; min-width:100%; width:100%; max-width:100%; height: 70px; min-height: 70px;max-height: 70px; text-align: center;}
+        div.footer span.copyright {color: #FFFFFF;font-weight:bold;line-height: 70px;}
+    </style>
+</head>
+<body>
+    <a name="header"></a>    
+    <div class="header"> 
+        <a id="logo" href="#header">LOGO</a>
+        <ul>
+            <li><a href="http://www.baidu.com/">导航链接一</a></li>
+            <li><a href="http://www.baidu.com/" target="_blank">导航链接二</a></li>
+            <li><a href="#refTest2">导航链接三</a></li>
+            <li><a href="http://www.baidu.com/" target="_top">导航链接四</a></li>
+        </ul>
+    </div>
+    <table class="content">
+        <tr>
+            <td class="shadow">
+                <h1>文章一级标题</h1>
+                <h2>文章二级标题</h2>
+                <h3>文章作者 文章发表时间</h3>
+                <p>
+                    这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br />
+                    这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，
+                    <a href="http://ife.baidu.com">这里有一个链接连接到http://ife.baidu.com</a>这是一个很长很长的段落，这是一个很长很长的段落，
+                    <strong>这里有个粗体字</strong>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。
+                </p>
+                <img src="img/img01.gif" alt="img/img01.gif" />
+                <p>
+                    这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br />
+                    这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，<strong>这里有个粗体字</strong>这是一个很长很长的段落，这是一个很长很长的段落，
+                    <a href="http://ife.baidu.com">这里有一个链接连接到http://ife.baidu.com</a>这是一个很长很长的段落，这是一个很长很长的段落，
+                    这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td class="shadow">
+                <h1>另一篇文章的标题</h1>
+                <h2>文章二级标题</h2>
+                <h3>文章作者 文章发表时间</h3>
+                <p>
+                    这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br />
+                    这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，
+                    <a href="http://ife.baidu.com">这里有一个链接连接到http://ife.baidu.com</a>这是一个很长很长的段落，这是一个很长很长的段落，
+                    <strong>这里有个粗体字</strong>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。
+                </p>
+                <img src="img/img01.gif" alt="img/img01.gif" />
+                <ul class="list">
+                    <li>列表项目一</li>
+                    <li>列表项目二</li>
+                    <li>列表项目三</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td class="shadow">
+                <h1>图片</h1>
+                <ul class="album">
+                    <li><p>好看的图片</p><img src="img/img02.jpg" alt="img/img02.jpg" /></li>
+                    <li><p>好看的图片</p><img src="img/img02.jpg" alt="img/img02.jpg" /></li>
+                    <li><p>好看的图片</p><img src="img/img02.jpg" alt="img/img02.jpg" /></li>
+                    <li><p>好看的图片</p><img src="img/img02.jpg" alt="img/img02.jpg" /></li>
+                    <li><p>好看的图片</p><img src="img/img02.jpg" alt="img/img02.jpg" /></li>
+                    <li><p>好看的图片</p><img src="img/img02.jpg" alt="img/img02.jpg" /></li>
+                    <li><p>好看的图片</p><img src="img/img02.jpg" alt="img/img02.jpg" /></li>
+                    <li><p>好看的图片</p><img src="img/img02.jpg" alt="img/img02.jpg" /></li>
+                    <li><p>好看的图片</p><img src="img/img02.jpg" alt="img/img02.jpg" /></li>
+                    <li><p>好看的图片</p><img src="img/img02.jpg" alt="img/img02.jpg" /></li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td class="shadow">
+                <h1>最后一篇文章一级标题</h1>
+                <h2>文章二级标题</h2>
+                <h3>文章作者 文章发表时间</h3>
+                <ol>
+                    <li>排名1</li>
+                    <li>排名2</li>
+                    <li>排名3</li>
+                </ol>
+                下面是一个表格，我这里没有给表格加border="1"，就是告诉你这里是个表格。
+                <table class="datagrid">
+                    <tr class="head">
+                        <th>表头</th>
+                        <th>表头</th>
+                        <th>表头</th>
+                    </tr>
+                    <tr>
+                        <td>表内容单元格</td>
+                        <td>表内容单元格</td>
+                        <td><a href="#">操作</a></td>
+                    </tr>
+                    <tr>
+                        <td>表内容单元格</td>
+                        <td>表内容单元格</td>
+                        <td><a href="#">操作</a></td>
+                    </tr>
+                    <tr>
+                        <td>表内容单元格</td>
+                        <td>表内容单元格</td>
+                        <td><a href="#">操作</a></td>
+                    </tr>
+                    <tr>
+                        <td>表内容单元格</td>
+                        <td>表内容单元格</td>
+                        <td><a href="#">操作</a></td>
+                    </tr>
+                    <tr class="total">
+                        <td>总计</td>
+                        <td colspan="2">1000</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td class="shadow">
+                <h1>这里以后是一个侧栏，这是侧栏的标题</h1>
+                <form>
+                    <table>
+                        <tr>
+                            <td>请输入邮箱地址</td>
+                            <td>
+                            <input type="text" name="email" value="这是一个文本输入框" />
+                                
+                            </td>
+                        </tr>
+                        <tr>
+                        <td></td>
+                        <td><p>邮箱地址请按要求格式输入</p></td>
+                        </tr>                        <tr>
+                            <td>
+                                请输入密码
+                            </td>
+                            <td>
+                                <input type="password" name="password" value="12345678" />
+                            </td>                            
+                        </tr>
+                        <tr>
+                            <td>
+                                请重复输入密码
+                            </td>
+                            <td>
+                                <input type="password" name="repeatpassword" value="12345678" />
+                                
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><p>密码请为6-16位英文数字</p></td>
+                        </tr>
+                        <tr>
+                            <td>性别</td>
+                            <td>
+                                <input type="radio" checked="checked" name="sex" id="male" value="male" /><label for="male">男</label>
+                                <input type="radio" name="sex" id="female" value="female" /><label for="female">女</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>城市</td>
+                            <td>
+                                <select name="city">
+                                    <option value="Beijing">北京</option>
+                                    <option value="Shanghai">上海</option>
+                                    <option value="Changsha" selected="selected">长沙</option>
+                                    <option value="Guangzhou">广州</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                爱好
+                            </td>
+                            <td>
+                                <input type="checkbox" name="sport" id="sport" /><label for="sport">运动</label>
+                                <input type="checkbox" name="art" id="art" /><label for="art">艺术</label>
+                                <input type="checkbox" name="read" id="read" /><label for="read">阅读</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                个人描述
+                            </td>
+                            <td>
+                                <textarea>这是一个多行输入框，输入您的个人描述</textarea>
+                            </td>
+                        </tr>
+                    </table>                    
+                    <input class="button" type="submit" value="确认提交" />
+                </form>
+            </td>
+            </tr>
+    </table>    
+    <div class="footer">
+        <span class="copyright">版权所有&copy;</span>
+    </div>
+</body>
+</html>
